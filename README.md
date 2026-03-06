@@ -34,7 +34,6 @@ Dataset columns include:
 - total_bill : Total bill amount paid by the customer
 - tip : Tip given by the customer
 - sex : Gender of the customer
-- smoker : Whether the customer is a smoker or non-smoker
 - day : Day of the week
 - time : Lunch or Dinner
 - size : Number of people at the table
@@ -131,7 +130,7 @@ Key metrics included in the dashboard:
 
 The dashboard file is available as:
 
-dashboard_mockup.png
+Sales_dashboard.png
 
 This dashboard demonstrates how important business metrics can be visually presented for decision making.
 
@@ -144,7 +143,7 @@ EDA-Business-Intelligence-Project
 Task2_EDA.ipynb  
 cleaned_sales_data.csv  
 sql_business_questions.md  
-dashboard_mockup.png  
+Sales_dashboard.png  
 README.md  
 
 --------------------------------------------------
