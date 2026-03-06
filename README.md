@@ -77,6 +77,7 @@ Visualizations created in this project:
 - Histogram of Total Bill
 - Histogram of Tips
 - Bar chart showing Revenue by Day
+- Scatter Plot showing relationship between Total Bill and Tip
 
 All analysis and code are available in the Jupyter Notebook file:
 
@@ -108,9 +109,9 @@ Multivariate analysis was performed to explore relationships between different v
 
 Examples of analysis performed:
 
-- Relationship between total bill and tip
-- Customer spending patterns by time of day
-- Revenue patterns across different days
+- Relationship between Total Bill and Tip
+- Customer spending patterns by Time of Day
+- Revenue patterns across different Days
 
 This helps in understanding how different variables influence business performance.
 
@@ -123,10 +124,14 @@ A static dashboard mock-up was created to present the most important business in
 Key metrics included in the dashboard:
 
 - Total Revenue
-- Average Bill Amount
-- Highest Revenue Day
 - Total Transactions
-- Revenue by Day chart
+- Average Bill Amount
+- Average Tip Percentage
+- Highest Revenue Day
+- Revenue by Day Chart
+- Transactions by Day Chart
+- Lunch vs Dinner Comparison
+- Tip Percentage by Gender
 
 The dashboard file is available as:
 
@@ -152,7 +157,8 @@ README.md
 
 The analysis provided the following insights:
 
-- Saturday generates the highest revenue
-- Dinner customers tend to spend more than lunch customers
-- Weekend transactions are higher than weekdays
-- Female customers give slightly higher tip percentages on average
+- Saturday generates the highest revenue.
+- Dinner customers spend more compared to lunch customers.
+- Weekend transactions are higher than weekdays.
+- Female customers give slightly higher tip percentages than male customers.
+- Tip amount increases as the total bill increases.
